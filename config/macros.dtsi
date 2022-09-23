@@ -1,3 +1,9 @@
+macro_raycast: macro_raycast{
+compatible = "zmk,behavior-macro";
+label = "macro_raycast";
+#binding-cells = <0>;
+bindings = <&kp LCMD>, <&kp SPACE>;
+};
 macro_mute: macro_mute{
 compatible = "zmk,behavior-macro";
 label = "macro_mute";
