@@ -6,7 +6,7 @@ bindings = <&kp LEFT_SHIFT &kp LCMD &kp A>;
 };
 macro_mute: macro_zoommute{
 compatible = "zmk,behavior-macro";
-label = "macro_mute";
+label = "macro_zoommute";
 #binding-cells = <0>;
 bindings = <&macro_press &kp LSHFT>, <&macro_press &kp LCMD>, <&macro_tap &kp A>;
 };
